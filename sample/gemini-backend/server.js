@@ -6,7 +6,7 @@ import { GoogleAuth } from "google-auth-library";
 import fs from "fs";
 import fetch from "node-fetch"; // keep for Node < 18; OK if installed
 
-const SERVICE_ACCOUNT_PATH = "./service-acccount.json"; // keep your filename
+const SERVICE_ACCOUNT_PATH = "./service-account1.json"; // keep your filename
 if (!fs.existsSync(SERVICE_ACCOUNT_PATH)) {
   console.error("Service account file not found!", SERVICE_ACCOUNT_PATH);
   process.exit(1);
