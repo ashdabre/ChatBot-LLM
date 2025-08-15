@@ -177,17 +177,7 @@ Day 10: Departure`;
     }
 
     try {
-     const GEMINI_API_URL =
-  window.location.hostname === "localhost"
-    ? "http://localhost:3000/api/gemini"
-    : "https://chatbot-llm-backend-node.onrender.com/api/gemini";
-
-const res = await fetch(GEMINI_API_URL, {
-  method: "POST",
-  headers: { "Content-Type": "application/json" },
-  body: JSON.stringify({ prompt }),
-});
-
+     const res = await fetch("http://localhost:3000/api/gemini", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ prompt }), });
 
       // If backend returns non-OK, read text for debugging and fallback
       if (!res.ok) {
