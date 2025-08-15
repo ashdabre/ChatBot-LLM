@@ -148,7 +148,7 @@ const AuthPage: React.FC<AuthPageProps> = ({ onLogin, onContinueAsGuest }) => {
           </div>
           <div>
             <h1 className="font-display font-bold text-2xl text-foreground">
-              Mind Whisper
+             ChatBot
             </h1>
             <p className="text-sm text-muted-foreground -mt-1">AI Companion</p>
           </div>
