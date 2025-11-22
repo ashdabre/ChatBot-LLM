@@ -7,6 +7,7 @@ A mobile-only ChatGPT clone built with Next.js, Supabase (database & persistence
 ## backend url- https://chatbot-llm-backend-node.onrender.com/api/gemini
 ### visit backend url firstly before visiting frontend to enable server strting
 
-## frontend url- https://689f6604a9d3151c4b68456c--chatbotllm1.netlify.app/#
+## frontend url- https://chatbotllm1.netlify.app/
 
 ## video explanation- https://www.loom.com/share/cd8b7ca272eb4413b54d5c01ea68179e?sid=f36c1351-afcd-4147-88f0-b8ca15934311
+
